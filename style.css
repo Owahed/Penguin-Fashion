@@ -1,0 +1,109 @@
+.button{
+    background-color: #8CA724;
+    color: #fff;
+    margin-left: 10px;
+}
+
+h1,h2,h3,h4,h5{
+    color: #363958;
+    font-weight: 700;
+}
+/* header */
+.header-area{
+    
+    padding-bottom: 100px;
+    
+}
+.header-area-color{
+    background-color: #FFFBF0;
+   
+}
+.nav-text a{
+  font-weight: 700;
+}
+.header-area-text h1{
+    font-size: 50px;
+}
+.header-area-text h1 span{
+    color: #FABE4C;
+}
+.header-area-text button{
+    margin: 0 !important;
+}
+
+/* product */
+.product{
+    border: 0;
+    border-radius: 15px;
+    border: 15px solid #fff;
+}
+.product img{
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.card-footer{
+    border: 0;
+    background-color: #fff;
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    padding: 20px;
+} 
+.card-footer h2{
+    color: #FABE4C;
+}
+/* about-us */
+
+
+.about-us-area{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.about-us-player{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+.about-us-player img{
+    height: 75px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#about{
+ margin-top: 150px;  
+}
+.about-us-img{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+/* contact_us */
+.contact_us{
+    margin-top: 55px;
+}
+.contact_us h3{
+    font-size: 30px;
+}
+.contact_us_p{
+   margin-right: 100px;
+   margin-bottom: 2rem;
+}
+.contact_us_ul ul li{
+    margin-bottom: 10px;
+}
+.contact_us_ul ul li a{
+    color: #433d3c; 
+    font-size: 16px;  
+}
+.contact_us_ul ul li a:hover{
+    color: #000;
+}
+/* footer */
+
+.footer_left{
+    text-align: center;
+   
+}
